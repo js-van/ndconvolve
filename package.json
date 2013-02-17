@@ -1,0 +1,35 @@
+{
+  "name": "ndconvolve",
+  "version": "0.0.0",
+  "description": "n-dimensional convolutions",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bit-twiddle": "~0.0.1",
+    "ndfft": "~0.0.0",
+    "ndresize": "~0.0.0",
+    "numeric": "~1.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/ndconvolve.git"
+  },
+  "keywords": [
+    "convolution",
+    "n-dimension",
+    "image",
+    "volume",
+    "geometry",
+    "numeric"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "787ad8381d27feca38fe9b5a3815c0e864c7d123"
+}
