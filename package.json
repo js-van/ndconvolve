@@ -7,9 +7,10 @@
     "test": "test"
   },
   "dependencies": {
-    "bit-twiddle": "~0.0.1",
-    "ndfft": "~0.0.0",
-    "ndresize": "~0.0.0",
+    "bit-twiddle": "~0.0",
+    "ndfft": "~0.0",
+    "ndresize": "~0.0",
+    "ndcrop": "~0.0",
     "numeric": "~1.2.6"
   },
   "devDependencies": {},

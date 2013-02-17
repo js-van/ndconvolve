@@ -1,8 +1,10 @@
 //Straight forward implementation of FFT based convolution
 var fft = require("ndfft");
 var resize = require("ndresize");
+var crop = require("ndcrop");
 var bits = require("bit-twiddle");
 var numeric = require("numeric");
+
 
 function cmuleq1(x0, y0, x1, y1) {
   for(var i=0; i<x0.length; ++i) {
@@ -111,7 +113,7 @@ function convolve(a, b) {
   //FFT^{-1}(FT(a) .* FT(b))
   fft(-1.0, x0, y0);
   
-  return resize(r_shape, x0);
+  return crop(r_shape, x0);
 }
 
 module.exports = convolve;
