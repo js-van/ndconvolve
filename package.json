@@ -1,6 +1,6 @@
 {
   "name": "ndconvolve",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "n-dimensional convolutions",
   "main": "index.js",
   "directories": {
